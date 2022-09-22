@@ -1,0 +1,9 @@
+<p>dynamic-render works!</p>
+
+<button (click)="showField1 = !showField1">toggle</button>
+<app-field-host [showField1]="showField1"></app-field-host>
+
+<h3>avec import</h3>
+
+<button (click)="showImportField1 = !showImportField1">toggle</button>
+<app-field-host-with-import [showField1]="showImportField1"></app-field-host-with-import>
